@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cloud-custodian-console
-        image: arturcorreiajunior/cloud-custodian-proxy:latest 
+        image: matheuss7/cloud-custodian-proxy:latest 
         imagePullPolicy: Always
         ports:
         - containerPort: 80
